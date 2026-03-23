@@ -26,4 +26,4 @@ Este exercício tem o objetivo de testar o projeto Claude Autofix Action, dispon
 ## Exercício 1 — Testar a ferramenta
 
 O primeiro exercício serve para testar o funcionamento da ferramenta com um exemplo simples. Um função divisão no ficheiro `dividir.py` e alguns testes em `test_dividir.py`. Este exemplo tem um teste que falhará propositadamente, uma vez que a função de divisão não está a tratar possíveis divisões por 0.
-O objetivo é verificar o funcionamento da ferramente: ao fazer um Pull Request, o teste falhará e o agente claude entrará em ação, fazendo um comentário e propondo uma correção do código numa nova branch.
+O objetivo é verificar o funcionamento da ferramenta: ao fazer um Pull Request, o teste falhará e o agente claude entrará em ação, fazendo um comentário e propondo uma correção do código numa nova branch.
